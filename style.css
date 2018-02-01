@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.auth {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.weight-input {
+    width: 100px;
+    font-size: inherit;
+    border-radius: 3px;
+    padding: 15px 10px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.weight-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-button {
+    background: royalblue;
+    border: none;
+    color: white;
+    font-size: inherit;
+    padding: 15px 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
