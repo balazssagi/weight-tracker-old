@@ -1,4 +1,4 @@
-var ENDPOINT = "http://localhost:3000/weight"
+var ENDPOINT = 'https://weight-tracker-api.herokuapp.com/weight'
 
 var form = document.querySelector('.js-weight-form')
 var input = document.querySelector('.js-weight-input')
