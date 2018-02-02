@@ -3,6 +3,7 @@ var ENDPOINT = 'https://weight-tracker-api.herokuapp.com/weight'
 var form = document.querySelector('.js-weight-form')
 var input = document.querySelector('.js-weight-input')
 var auth = document.querySelector('.js-auth')
+var message = document.querySelector('.js-message')
 
 auth.addEventListener('blur', function() {
     localStorage.setItem('secret', this.value)
@@ -21,7 +22,7 @@ function onSubmit(e) {
         }
     })
     .then(function(res) {
-        console.log(res.data)
+        message.textContent = res.data
     })
 }
 
